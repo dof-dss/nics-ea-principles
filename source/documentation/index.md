@@ -9,10 +9,10 @@ This document is based on and contains extracts from the [NICS Enterprise Archit
 
 We have chosen a set of Enterprise Architecture guiding principles organised into four categories:
 
-1. General Principles
-2. Information Principles
-3. Application Principles
-4. Technology and Security Principles
+1. [General Principles](#general-principles)
+2. [Information Principles](#information-principles)
+3. [Application Principles](#application-principles)
+4. [Technology and Security Principles](#technology-and-security-principles)
 
 ## General Principles
 
