@@ -27,13 +27,13 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 
 ## Information Principles
 
-1. Treat information as a NICS Asset
+1. [Treat information as a NICS Asset](documentation/information#2-1-treat-information-as-a-nics-asset)
 2. Make Information Accessible, Shareable and Consumable
 3. Use Common Terminology and Definitions
 
 ## Application Principles
 
-1. Design Simple and Easy to Use of Applications
+1. [Design Simple and Easy to Use of Applications](documentation/application)
 2. Align with Enterprise Architecture
 3. Apply Enterprise Architecture to Externally Hosted Applications
 4. Implement Service Based interfaces
@@ -44,7 +44,7 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 
 ## Technology and Security Principles
 
-1. Implement Changes based on Requirements
+1. [Implement Changes based on Requirements](documentation/technology)
 2. Control Technical Diversity and Suppliers
 3. Design solutions with Interoperability in mind
 4. Use a risk based approach to security

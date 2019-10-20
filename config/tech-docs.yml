@@ -9,7 +9,8 @@ phase: Beta
 
 # Links to show on right-hand-side of header
 header_links:
-  GitHub: https://github.com/dof-dss/tech-docs-template.git
+  Citizen Services Architecture: https://docs.ea.digitalni.gov.uk
+  GitHub: https://github.com/dof-dss/nics-ea-principles
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: false
