@@ -1,5 +1,5 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: docs.ea-principles.london.cloudapps.digital
+host: nics-ea-principles.london.cloudapps.digital
 
 # Header-related options
 show_govuk_logo: false
@@ -33,4 +33,4 @@ max_toc_heading_level: 3
 prevent_indexing: false
 
 show_contribution_banner: false
-github_repo: dof-dss/tech-docs-template
+github_repo: dof-dss/nics-ea-principles
