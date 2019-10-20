@@ -1,7 +1,7 @@
 # Enterprise Architecture Principles
 
 Principles are basically high-level definitions of fundamental values that guide both business and technology decisions,
-serving as the basis for architecture development, policies, and standards. Each architecture principle must focus mainly on business goals and the implications for the **Northern Ireland Civil Service (NICS)**.
+serving as the basis for architecture development, policies, and standards. Each architecture principle must focus mainly on business goals and the implications for the [Northern Ireland Civil Service (NICS)](#definitions).
 
 This document is based on and contains extracts from the [NICS Enterprise Architecture Principles](https://www.finance-ni.gov.uk/publications/nics-enterprise-architecture-principles-itda).
 
@@ -50,3 +50,24 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 4. Use a risk based approach to security
 5. Design Solutions with Security in mind
 6. Leveraging multi-cloud provision
+
+
+## Definitions
+
+For the purposes of this document, the following definitions will apply:
+
+**Northern Ireland Civil Service (NICS)**
+
+The nine (9) core departments making up the Northern Ireland Civil Service (Agriculture, Environment & Rural
+Affairs (DAERA), Infrastructure (DfI), Economy (DfE), Education (DE), Finance (DoF), Health (DoH), Justice (DoJ),
+Executive Office (TEO) and Communities (DfC)) and any other Northern Ireland Public Sector organisation either
+funded by any of these departments OR taking digital or IT services from any of these departments.
+
+**Private Cloud**
+
+Private cloud refers to a model of cloud computing where IT services are provisioned over private IT
+infrastructure for the dedicated use of a single organisation.
+
+**Public Cloud**
+
+The public cloud is defined as computing services offered by third-party providers over the public Internet.
