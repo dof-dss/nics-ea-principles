@@ -1,24 +1,22 @@
-# NICS Enterprise Architecture Principles
-
-## Introduction
-
-This document is based on and contains extracts from the [NICS Enterprise Architecture Principles](https://www.finance-ni.gov.uk/publications/nics-enterprise-architecture-principles-itda).
-
-### Definition
+# Enterprise Architecture Principles
 
 Principles are basically high-level definitions of fundamental values that guide both business and technology decisions,
-serving as the basis for architecture development, policies, and standards. The principles of EA define general rules
-and guidelines to use and implement with all Information and Technology resources and assets throughout the NICS. They must reflect a level of consensus between Departments, constituting the basis for current and future decisions regarding NICS business and technology direction.
+serving as the basis for architecture development, policies, and standards. Each architecture principle must focus mainly on business goals and the implications for the **Northern Ireland Civil Service (NICS)**.
 
-Each architecture principle must focus mainly on business goals and the implications for the NICS.
+This document is based on and contains extracts from the [NICS Enterprise Architecture Principles](https://www.finance-ni.gov.uk/publications/nics-enterprise-architecture-principles-itda).
 
 ## Categories of principles
 
 We have chosen a set of Enterprise Architecture guiding principles organised into four categories:
 
-### General Principles
+1. General Principles
+2. Information Principles
+3. Application Principles
+4. Technology and Security Principles
 
-1. These principles will apply to all organisational units within the NICS
+## General Principles
+
+1. [These principles will apply to all organisational units within the NICS](documentation/general#1-the-architectural-principles-will-apply-to-all-business-areas-within-the-nics)
 2. Include business continuity into planning and decision making
 3. Adopt industry best practice
 4. Reuse before buy, buy before build
@@ -27,13 +25,13 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 7. Be open and use open source and open standards
 8. Protection of Intellectual Property
 
-### Information Principles
+## Information Principles
 
 1. Treat information as a NICS Asset
 2. Make Information Accessible, Shareable and Consumable
 3. Use Common Terminology and Definitions
 
-### Application Principles
+## Application Principles
 
 1. Design Simple and Easy to Use of Applications
 2. Align with Enterprise Architecture
@@ -44,7 +42,7 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 7. Component Reusability
 8. Cloud Native Applications
 
-### Technology and Security Principles
+## Technology and Security Principles
 
 1. Implement Changes based on Requirements
 2. Control Technical Diversity and Suppliers
