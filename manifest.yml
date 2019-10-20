@@ -1,7 +1,7 @@
 ---
 applications:
-- name: ea-principles
+- name: nics-ea-principles
   memory: 64M
-  instances: 2
+  instances: 1
   path: ./build
   buildpack: staticfile_buildpack
