@@ -46,10 +46,9 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 
 1. [Implement Changes based on Requirements](documentation/technology#4-1-implement-changes-based-on-requirements)
 2. [Control Technical Diversity and Suppliers](documentation/technology#4-2-control-technical-diversity)
-3. [Design solutions with Interoperability in mind](#)
-4. [Use a risk based approach to security](documentation/technology#4-4-use-a-risk-based-approach-to-security)
-5. [Design Solutions with Security in mind](documentation/technology#4-5-design-solution-with-security-in-mind)
-6. [Leveraging multi-cloud provision](documentation/technology#4-6-leveraging-multi-cloud-provision)
+4. [Use a risk based approach to security](documentation/technology#4-3-use-a-risk-based-approach-to-security)
+5. [Design Solutions with Security in mind](documentation/technology#4-4-design-solution-with-security-in-mind)
+6. [Leveraging multi-cloud provision](documentation/technology#4-5-leveraging-multi-cloud-provision)
 
 
 ## Definitions
