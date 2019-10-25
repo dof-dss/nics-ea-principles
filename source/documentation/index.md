@@ -20,34 +20,34 @@ We have chosen a set of Enterprise Architecture guiding principles organised int
 2. [Include business continuity into planning and decision making](documentation/general#1-2-include-business-continuity-into-planning-and-decision-making)
 3. [Adopt industry best practice](documentation/general#1-3-adopt-industry-best-practice)
 4. [Reuse before buy, buy before build](documentation/general#1-4-reuse-before-buy-buy-before-build)
-5. [Common Use applications](documentation/general#1-5-common-use-applications)
+5. [Common se applications](documentation/general#1-5-common-use-applications)
 6. [Deliver maximum benefits at the lowest cost and risks](documentation/general#1-6-deliver-maximum-benefits-at-the-lowest-cost-and-risks)
 7. [Be open and use open source and open standards](documentation/general#1-7-be-open-and-use-open-source-and-open-standards)
-8. [Protection of Intellectual Property](documentation/general#1-8-protection-of-intellectual-property)
+8. [Protection of intellectual property](documentation/general#1-8-protection-of-intellectual-property)
 
 ## Information Principles
 
-1. [Treat information as a NICS Asset](documentation/information#2-1-treat-information-as-a-nics-asset)
-2. [Make Information Accessible, Shareable and Consumable](documentation/information#2-2-make-information-accessible-shareable-and-consumable)
-3. [Use Common Terminology and Definitions](documentation/information#2-3-use-common-terminology-and-definitions)
+1. [Treat information as a NICS asset](documentation/information#2-1-treat-information-as-a-nics-asset)
+2. [Make information accessible, shareable and consumable](documentation/information#2-2-make-information-accessible-shareable-and-consumable)
+3. [Use common terminology and definitions](documentation/information#2-3-use-common-terminology-and-definitions)
 
 ## Application Principles
 
-1. [Design Simple and Easy to Use of Applications](documentation/application#3-1-design-simple-and-easy-to-use-applications)
+1. [Design simple and easy to use applications](documentation/application#3-1-design-simple-and-easy-to-use-applications)
 2. [Align with Enterprise Architecture](documentation/application#3-2-align-with-the-enterprise-architecture)
-3. [Apply Enterprise Architecture to Externally Hosted Applications](documentation/application#3-3-apply-enterprise-architecture-principles-to-externally-provided-or-hosted-applications)
-4. [Implement Service Based interfaces](documentation/application#3-4-implement-service-based-interfaces)
-5. [Adhere to functional Domains](documentation/application#3-5-adhere-to-functional-domains)
-6. [Application Independence](documentation/application#3-6-application-independence)
-7. [Component Reusability](documentation/application#3-7-component-reusability)
-8. [Cloud Native Applications](documentation/application#3-8-cloud-native-applications)
+3. [Apply Enterprise Architecture to externally hosted applications](documentation/application#3-3-apply-enterprise-architecture-principles-to-externally-provided-or-hosted-applications)
+4. [Implement service based interfaces](documentation/application#3-4-implement-service-based-interfaces)
+5. [Adhere to functional domains](documentation/application#3-5-adhere-to-functional-domains)
+6. [Application independence](documentation/application#3-6-application-independence)
+7. [Component reusability](documentation/application#3-7-component-reusability)
+8. [Cloud-native applications](documentation/application#3-8-cloud-native-applications)
 
 ## Technology and Security Principles
 
-1. [Implement Changes based on Requirements](documentation/technology#4-1-implement-changes-based-on-requirements)
-2. [Control Technical Diversity and Suppliers](documentation/technology#4-2-control-technical-diversity)
+1. [Implement changes based on requirements](documentation/technology#4-1-implement-changes-based-on-requirements)
+2. [Control technical diversity](documentation/technology#4-2-control-technical-diversity)
 4. [Use a risk based approach to security](documentation/technology#4-3-use-a-risk-based-approach-to-security)
-5. [Design Solutions with Security in mind](documentation/technology#4-4-design-solution-with-security-in-mind)
+5. [Design solutions with security in mind](documentation/technology#4-4-design-solution-with-security-in-mind)
 6. [Leveraging multi-cloud provision](documentation/technology#4-5-leveraging-multi-cloud-provision)
 
 
