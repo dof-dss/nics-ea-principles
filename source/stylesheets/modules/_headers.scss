@@ -1,29 +1,21 @@
 $principles-header-padding-top: 0.75em;
 
-.general-principles-header + h2 {
-  margin-top: 1em;
-  padding: $principles-header-padding-top 0.5em 0.5em 0.5em;
-  color: white;
-  background-color: #748BC1;
+.general-principles-header + h1, .general-principles-header + h2 {
+  padding-bottom: 4px;
+  border-bottom: solid 8px #748BC1;
 }
 
-.information-principles-header + h2 {
-  margin-top: 1em;
-  padding: $principles-header-padding-top 0.5em 0.5em 0.5em;
-  color: white;
-  background-color: #439Ab6;
+.information-principles-header + h1, .information-principles-header + h2 {
+  padding-bottom: 4px;
+  border-bottom: solid 8px #439Ab6;
 }
 
-.application-principles-header + h2 {
-  margin-top: 1em;
-  padding: $principles-header-padding-top 0.5em 0.5em 0.5em;
-  color: white;
-  background-color: #6E5095;
+.application-principles-header + h1,  .application-principles-header + h2 {
+  padding-bottom: 4px;
+  border-bottom: solid 8px #6E5095;
 }
 
-.technology-principles-header + h2 {
-  margin-top: 1em;
-  padding: $principles-header-padding-top 0.5em 0.5em 0.5em;
-  color: white;
-  background-color: #2B65AA;
+.technology-principles-header + h1, .technology-principles-header + h2 {
+  padding-bottom: 4px;
+  border-bottom: solid 8px #2B65AA;
 }
