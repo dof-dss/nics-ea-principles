@@ -8,7 +8,7 @@ review_in: 6 months
 
 ## 3.1 - Design simple and easy to use applications
 
-#### Description
+### Description
 
 The enterprise architecture is built with reusable, modular components that
 implement services.
@@ -18,7 +18,7 @@ Solution architecture must be as simple as possible to maintain yet meet busines
 The business community acknowledges the ease of use of its technology solutions. The technology is
 transparent as it enables the business to concentrate on tasks, rather than system operation issues.
 
-#### Rationale
+### Rationale
 
 Reusable components represent opportunities to reduce development time and costs. Reusable components
 leverage investments in current systems. Modular components increase the systems’ capacities to adapt todifferent evolution needs, because the change is isolated from affected modules.
@@ -26,7 +26,7 @@ leverage investments in current systems. Modular components increase the systems
 The more that users need to understand the technology employed, the less productive they will be. The ease of use concept is a positive reinforcement for promoting simplicity in design. It encourages individuals to work within the integrated information environment rather than developing isolated systems to perform tasks outside of the integrated NICS environment. Most of the knowledge required to operate systems is very similar.
 Formatting is limited to a minimum, and system misuse risks are low.
 
-#### Implications
+### Implications
 
 - The architecture establishes standards and guidelines to develop system components.
 - All applications must have the same appearance and layout as much as possible. Thus, a standard layout must be developed and usability testing criteria must be implemented by the QA organization.
@@ -36,7 +36,7 @@ Formatting is limited to a minimum, and system misuse risks are low.
 
 ## 3.2 - Align with the Enterprise Architecture
 
-#### Description
+### Description
 
 Enterprise Architecture begins with the enterprise’s strategies, objectives, its business
 outcomes and business capabilities. Therefore, applications whether developed in-house or
@@ -44,14 +44,14 @@ purchased, must respect the provisions of the Enterprise Architecture’s future
 
 A convergence with the enterprise architecture’s future state takes place as new applications are built, new technologies are implemented, and older systems are updated or decommissioned. Exceptions to theenterprise architecture might be supported for specific cases if there is a consensus that the benefits of using a solution from a specific technology exceed those arising from the adoption of the enterprise architecture. In some cases, this may trigger a review of the future state architecture to include the exception if this is deemed as desirable.
 
-#### Rationale
+### Rationale
 
 Alignment offers several advantages:
 - It allows the enterprise architecture to evolve and accommodate changes in processes and technologies
 - It avoids conversions of obsolete systems, which are extremely expensive
 - Over time, it preserves the investment while promoting the benefits of the enterprise architecture.
 
-#### Implications
+### Implications
 
 - Delayed convergence could reduce the benefits of the enterprise architecture.
 - Convergence requires a realistic and tangible approach to migration to the enterprise architecture.
@@ -64,18 +64,18 @@ Alignment offers several advantages:
 
 ## 3.3 - Apply Enterprise Architecture Principles to externally provided or hosted applications
 
-#### Description
+### Description
 
 As new outsourcing contracts and agreements are entered into, they must adhere to the
 NICS enterprise architecture principles where applicable.
 
 This is one of the ways to keep enterprise architecture in line with the business. Outsourced activities must not be exceptions to the enterprise architecture simply because they are outsourced. Outsourced solutions must be evaluated against these principles, including Intellectual Property rights.
 
-#### Rationale
+### Rationale
 
 To be successful, enterprise architecture must be integrated with key phases of IT project delivery: concept, planning, including procurement of solutions.
 
-#### Implications
+### Implications
 
 This requires partnerships and efficient communication between business, procurement, contract management, and business areas to get the benefits offered by the enterprise architecture.
 
@@ -88,7 +88,7 @@ This requires partnerships and efficient communication between business, procure
 
 ## 3.4 - Implement service based interfaces
 
-#### Description
+### Description
 
 Define interfaces thathave low coupling, are self-described, and offer low impacton the
 design of solutions as a result of changes. All data stores must be exposed via APIs.
@@ -96,11 +96,11 @@ design of solutions as a result of changes. All data stores must be exposed via 
 All applications must provide APIs and/or message queues as standard to maximise reuse
 and interoperability.
 
-#### Rationale
+### Rationale
 
 Low-coupling interfaces are preferable, because when interfaces between independent applications are highly coupled, they are less generic and more susceptible to causing unwanted, secondary effects when they are changed.
 
-#### Implications
+### Implications
 
 - Low coupling means that the services (e.g. API’s) are designed and built with no affinity to a certain serviceconsumer.
 - Therefore, the service is completely uncoupled from the service consumer. However, the service consumer is dependent of the service (that is, contains references for service-based interfaces).
@@ -116,19 +116,19 @@ required).
 
 ## 3.5 - Adhere to functional domains
 
-#### Description
+### Description
 
 The business rules and functionality of a system are consistent with the mission of
 that application. There is complete adherence to the functional domain in which the
 application is located.
 
-#### Rationale
+### Rationale
 
 The purpose of this principle is to avoid functional redundancy between applications. Functional redundancy can cause loss of data integrity and increase maintenance costs related to the redundant business rule.
 
 There should be good cause for introducing anything into the NICS IT landscape. There must be a well understood reason - a specific user need or problem being addressed, or an opportunity being exploited -for introducing the asset. It follows therefore that everything must be adding value to someone, and the outcome of introducing the asset - some change in user behaviour must be measurable. It is imperative that a metric that truly measures the asset’s reason for existing be identified and a mechanism for gathering the metric be implemented.
 
-#### Implications
+### Implications
 
 - Applications must be located in proper functional domains, with explicit definition of the manager in charge of the functional domain.
 - Each new functionality request must be submitted to the respective manager.
@@ -157,12 +157,12 @@ whether the desired outcome is being achieved or not.
 
 ## 3.6 - Application independence
 
-#### Description
+### Description
 
 Applications should, as much as possible, be independent in terms of the technology they
 are consumed on and should be able to operate on a variety of technology platforms.
 
-#### Rationale
+### Rationale
 
 Independence of applications from the underlying technology allows applications to be developed, upgraded and operated in the most cost effective and timely way. Otherwise technology, which is subject to continual obsolescence and vendor dependence, becomes the driver rather than the user requirements themselves.
 
@@ -170,7 +170,7 @@ Realising that every decision made with respect to IT makes us dependent on that
 
 Exit strategies should be implemented when considering a technology, facilitating an agnostic approach that may change if the service needs change.
 
-#### Implications
+### Implications
 
 This principle will require standards which support portability.
 
@@ -185,19 +185,19 @@ Middleware should be used to decouple applications from specific software soluti
 
 ## 3.7 - Component reusability
 
-#### Description
+### Description
 
 The enterprise architecture is built over low-coupling, reusable, modular components
 that implement services. Systems architecture must be as simple as possible to maintain
 yet meet all business and NICS requirements. Whenever complexity is required, it must
 be encapsulated to promote simplicity of solutions built on the architecture.
 
-#### Rationale
+### Rationale
 
 Reusable components represent opportunities to reduce development times and costs. Reusable components
 leverage investments in current systems. Modular components increase the systems’ capacities to adapt to different evolution needs, because the change is isolated from affected modules.
 
-#### Implications
+### Implications
 
 - Standards and guidelines to develop reusable system components should be compiled
 - Application maintenance must be prioritised along with new development work
@@ -208,15 +208,15 @@ leverage investments in current systems. Modular components increase the systems
 
 ## 3.8 - Cloud native applications
 
-#### Description
+### Description
 
 All future applications should be ‘cloud native’ in design and be cloud vendor agnostic as
 far as possible.
 
-#### Rationale
+### Rationale
 
 Applications are scalable and easy to deploy onto different cloud environments thus avoiding potentially expensive vendor lock-in.
 
-#### Implications
+### Implications
 
 Application development must adhere to a number of fundamental design principles i.e. [12 factor application principles](https://12factor.net)
