@@ -1,20 +1,19 @@
 ---
 title: Application Principles
-last_reviewed_on: 2019-10-20
+last_reviewed_on: 2019-10-25
 review_in: 6 months
 ---
 
 # Application Principles
 
-## 3.1 - Design Simple and Easy to Use Applications
+## 3.1 - Design simple and easy to use applications
 
 #### Description
 
 The enterprise architecture is built with reusable, modular components that
 implement services.
 
-Solution architecture must be as simple as possible to maintain yet meet business requirements. Whenever
-complexity is required, it must be encapsulated to promote simplicity of solutions defined by the architecture.
+Solution architecture must be as simple as possible to maintain yet meet business requirements. Whenever complexity is required, it must be encapsulated to promote simplicity of solutions defined by the architecture.
 
 The business community acknowledges the ease of use of its technology solutions. The technology is
 transparent as it enables the business to concentrate on tasks, rather than system operation issues.
@@ -22,23 +21,16 @@ transparent as it enables the business to concentrate on tasks, rather than syst
 #### Rationale
 
 Reusable components represent opportunities to reduce development time and costs. Reusable components
-leverage investments in current systems. Modular components increase the systems’ capacities to adapt to
-different evolution needs, because the change is isolated from affected modules.
+leverage investments in current systems. Modular components increase the systems’ capacities to adapt todifferent evolution needs, because the change is isolated from affected modules.
 
-The more that users need to understand the technology employed, the less productive they will be. The ease
-of use concept is a positive reinforcement for promoting simplicity in design. It encourages individuals to work
-within the integrated information environment rather than developing isolated systems to perform tasks
-outside of the integrated NICS environment. Most of the knowledge required to operate systems is very similar.
+The more that users need to understand the technology employed, the less productive they will be. The ease of use concept is a positive reinforcement for promoting simplicity in design. It encourages individuals to work within the integrated information environment rather than developing isolated systems to perform tasks outside of the integrated NICS environment. Most of the knowledge required to operate systems is very similar.
 Formatting is limited to a minimum, and system misuse risks are low.
 
 #### Implications
 
 - The architecture establishes standards and guidelines to develop system components.
-- All applications must have the same appearance and layout as much as possible. Thus, a standard layout
-must be developed and usability testing criteria must be implemented by the QA organization.
-- Feedback loops should be established as a priority during any development effort to help guide and gather
-factual data about how successful work efforts are in achieving the desired outcome and in particular, the
-ease-of-use of the application.
+- All applications must have the same appearance and layout as much as possible. Thus, a standard layout must be developed and usability testing criteria must be implemented by the QA organization.
+- Feedback loops should be established as a priority during any development effort to help guide and gather factual data about how successful work efforts are in achieving the desired outcome and in particular, the ease-of-use of the application.
 
 ---
 
@@ -50,12 +42,7 @@ Enterprise Architecture begins with the enterprise’s strategies, objectives, i
 outcomes and business capabilities. Therefore, applications whether developed in-house or
 purchased, must respect the provisions of the Enterprise Architecture’s future state.
 
-A convergence with the enterprise architecture’s future state takes place as new applications are built,
-new technologies are implemented, and older systems are updated or decommissioned. Exceptions to the
-enterprise architecture might be supported for specific cases if there is a consensus that the benefits of using
-a solution from a specific technology exceed those arising from the adoption of the enterprise architecture. In
-some cases, this may trigger a review of the future state architecture to include the exception if this is deemed
-as desirable.
+A convergence with the enterprise architecture’s future state takes place as new applications are built, new technologies are implemented, and older systems are updated or decommissioned. Exceptions to theenterprise architecture might be supported for specific cases if there is a consensus that the benefits of using a solution from a specific technology exceed those arising from the adoption of the enterprise architecture. In some cases, this may trigger a review of the future state architecture to include the exception if this is deemed as desirable.
 
 #### Rationale
 
@@ -70,47 +57,40 @@ Alignment offers several advantages:
 - Convergence requires a realistic and tangible approach to migration to the enterprise architecture.
 - It requires an explicit transition strategy for current systems after the target technology is identified.
 - Allows decommissioning a system sooner when that is appropriate.
-- Convergence does not allow waiting indefinitely. It requires a business case for exceptions, an exception
-process, and an exit strategy. It must establish temporary or permanent exceptions, as well as exit
-strategies for temporary exceptions.
+- Convergence does not allow waiting indefinitely. It requires a business case for exceptions, an exception process, and an exit strategy. It must establish temporary or permanent exceptions, as well as exitstrategies for temporary exceptions.
 - Convergence requires sponsorship to replace obsolete technologies.
 
 ---
 
-## 3.3 - Apply Enterprise Architecture Principles to Externally Provided or Hosted Applications
+## 3.3 - Apply Enterprise Architecture Principles to externally provided or hosted applications
 
 #### Description
 
 As new outsourcing contracts and agreements are entered into, they must adhere to the
 NICS enterprise architecture principles where applicable.
 
-This is one of the ways to keep enterprise architecture in line with the business. Outsourced activities must not
-be exceptions to the enterprise architecture simply because they are outsourced. Outsourced solutions must
-be evaluated against these principles, including Intellectual Property rights.
+This is one of the ways to keep enterprise architecture in line with the business. Outsourced activities must not be exceptions to the enterprise architecture simply because they are outsourced. Outsourced solutions must be evaluated against these principles, including Intellectual Property rights.
 
 #### Rationale
 
-To be successful, enterprise architecture must be integrated with key phases of IT project delivery: concept,
-planning, including procurement of solutions.
+To be successful, enterprise architecture must be integrated with key phases of IT project delivery: concept, planning, including procurement of solutions.
 
 #### Implications
 
-This requires partnerships and efficient communication between business, procurement, contract management,
-and business areas to get the benefits offered by the enterprise architecture.
+This requires partnerships and efficient communication between business, procurement, contract management, and business areas to get the benefits offered by the enterprise architecture.
 
 - IT acquisitions must include requirements based on the enterprise architecture.
 - The investment vision for the business must include IT requirements.
 - Information technology acquisitions must include requirements based on the enterprise architecture.
-- Where external IT providers are contracted to build solutions on behalf of NICS, the Intellectual Property
-Rights must be the property of NICS.
+- Where external IT providers are contracted to build solutions on behalf of NICS, the Intellectual Property Rights must be the property of NICS.
 
 ---
 
-## 3.4 - Implement Service-Based Interfaces
+## 3.4 - Implement service based interfaces
 
 #### Description
 
-Define interfaces thathave lowcoupling, are self-described, andoffer lowimpactonthe
+Define interfaces thathave low coupling, are self-described, and offer low impacton the
 design of solutions as a result of changes. All data stores must be exposed via APIs.
 
 All applications must provide APIs and/or message queues as standard to maximise reuse
@@ -118,28 +98,23 @@ and interoperability.
 
 #### Rationale
 
-Low-coupling interfaces are preferable, because when interfaces between independent applications are highly
-coupled, they are less generic and more susceptible to causing unwanted, secondary effects when they are
-changed.
+Low-coupling interfaces are preferable, because when interfaces between independent applications are highly coupled, they are less generic and more susceptible to causing unwanted, secondary effects when they are changed.
 
 #### Implications
 
-- Low coupling means that the services (e.g. API’s) are designed and built with no affinity to a certain service
-consumer.
-- Therefore, the service is completely uncoupled from the service consumer. However, the service consumer
-is dependent of the service (that is, contains references for service-based interfaces).
+- Low coupling means that the services (e.g. API’s) are designed and built with no affinity to a certain serviceconsumer.
+- Therefore, the service is completely uncoupled from the service consumer. However, the service consumer is dependent of the service (that is, contains references for service-based interfaces).
 - The service is also responsible for exception treatment. The result is a low-coupling architecture.
 - When building systems or new services, expose any functionality via APIs or queues and communicate
 with other services using message queues (where possible) or API calls (where sync exchange of data is
 required).
-- Guidance in the form of an API Style Guide must be published to ensure quality and standardisation of
-APIs.
+- Guidance in the form of an API Style Guide must be published to ensure quality and standardisation of APIs.
 - An enterprise service bus is required to support message transportation around the enterprise.
 - Common vocabulary and data definitions must be defined to ensure interoperability between systems.
 
 ---
 
-## 3.5 - Adhere to Functional Domains
+## 3.5 - Adhere to functional domains
 
 #### Description
 
@@ -149,32 +124,21 @@ application is located.
 
 #### Rationale
 
-The purpose of this principle is to avoid functional redundancy between applications. Functional redundancy
-can cause loss of data integrity and increase maintenance costs related to the redundant business rule.
+The purpose of this principle is to avoid functional redundancy between applications. Functional redundancy can cause loss of data integrity and increase maintenance costs related to the redundant business rule.
 
-There should be good cause for introducing anything into the NICS IT landscape. There must be a well understood
-reason - a specific user need or problem being addressed, or an opportunity being exploited -for introducing the
-asset. It follows therefore that everything must be adding value to someone, and the outcome of introducing the
-asset - some change in user behaviour must be measurable. It is imperative that a metric that truly measures the
-asset’s reason for existing be identified and a mechanism for gathering the metric be implemented.
+There should be good cause for introducing anything into the NICS IT landscape. There must be a well understood reason - a specific user need or problem being addressed, or an opportunity being exploited -for introducing the asset. It follows therefore that everything must be adding value to someone, and the outcome of introducing the asset - some change in user behaviour must be measurable. It is imperative that a metric that truly measures the asset’s reason for existing be identified and a mechanism for gathering the metric be implemented.
 
 #### Implications
 
-- Applications must be located in proper functional domains, with explicit definition of the manager in
-charge of the functional domain.
+- Applications must be located in proper functional domains, with explicit definition of the manager in charge of the functional domain.
 - Each new functionality request must be submitted to the respective manager.
-- Applications that are already in production with functional redundancy should be replaced entirely or
-partially in a timely manner. The functional redundancy of such applications must not be promoted.
-- There must be a tangible reason why work is being undertaken and who will benefit from it, i.e. the desired
-outcome the work is intended to achieve.
+- Applications that are already in production with functional redundancy should be replaced entirely or partially in a timely manner. The functional redundancy of such applications must not be promoted.
+- There must be a tangible reason why work is being undertaken and who will benefit from it, i.e. the desired outcome the work is intended to achieve.
 - Develop knowledge of your target audience (who) and what that means for your work.
 - One “metric that matters” / Key Performance Indicator (KPI) should be identified that truly reflects
 whether the desired outcome is being achieved or not.
-- The KPI must be actionable and give some context, i.e. a ratio or percentage. For example, a KPI reporting
-“300 transactions completed online last month” doesn’t have the context to understand if 300 was good or
-not. A KPI reporting 60% (or 6%) gives meaning and context that can be used to better inform decisionmaking around next steps.
-- Steps must be taken to collect necessary data to report on the KPI as part of the first deliverable, in order
-to create a feedback loop.
+- The KPI must be actionable and give some context, i.e. a ratio or percentage. For example, a KPI reporting “300 transactions completed online last month” doesn’t have the context to understand if 300 was good or not. A KPI reporting 60% (or 6%) gives meaning and context that can be used to better inform decision making around next steps.
+- Steps must be taken to collect necessary data to report on the KPI as part of the first deliverable, in order to create a feedback loop.
 - A hypothesis-based approach, where assumptions are de-risked to build confidence should be adopted.
   A suggested format is as follows:
   - We believe *introducing a shiny new asset (what)*
@@ -182,9 +146,7 @@ to create a feedback loop.
   - For *users (who)*
   - We will know this is true when *we achieve target% change in users’ behaviour (KPI)*
 
-  The hypothesis should then be tested to determine if the assumed “cause and effect” relationship actually
-exists, and if that correlation is sufficiently strong. A threshold for determining if the hypothesis is valid or not
-is declared up front. For example:
+  The hypothesis should then be tested to determine if the assumed “cause and effect” relationship actually exists, and if that correlation is sufficiently strong. A threshold for determining if the hypothesis is valid or not is declared up front. For example:
 
 - We believe caching database calls
 - Will make our web page appear faster and more responsive
@@ -193,7 +155,7 @@ is declared up front. For example:
 
 ---
 
-## 3.6 - Application Independence
+## 3.6 - Application independence
 
 #### Description
 
@@ -202,15 +164,11 @@ are consumed on and should be able to operate on a variety of technology platfor
 
 #### Rationale
 
-Independence of applications from the underlying technology allows applications to be developed, upgraded
-and operated in the most cost effective and timely way. Otherwise technology, which is subject to continual
-obsolescence and vendor dependence, becomes the driver rather than the user requirements themselves.
+Independence of applications from the underlying technology allows applications to be developed, upgraded and operated in the most cost effective and timely way. Otherwise technology, which is subject to continual obsolescence and vendor dependence, becomes the driver rather than the user requirements themselves.
 
-Realising that every decision made with respect to IT makes us dependent on that technology, the intent of this
-principle is to ensure that application software is not dependent on specific hardware and operating software.
+Realising that every decision made with respect to IT makes us dependent on that technology, the intent of this principle is to ensure that application software is not dependent on specific hardware and operating software.
 
-Exit strategies should be implemented when considering a technology, facilitating an agnostic approach that
-may change if the service needs change.
+Exit strategies should be implemented when considering a technology, facilitating an agnostic approach that may change if the service needs change.
 
 #### Implications
 
@@ -219,14 +177,13 @@ This principle will require standards which support portability.
 For Commercial Off-The-Shelf (COTS) and Government Off-The-Shelf (GOTS) applications, there may be
 limited current choices, as many of these applications are technology and platform-dependent.
 
-Subsystem interfaces will need to be developed to enable legacy applications to interoperate with applications
-and operating environments developed under the enterprise architecture.
+Subsystem interfaces will need to be developed to enable legacy applications to interoperate with applications and operating environments developed under the enterprise architecture.
 
 Middleware should be used to decouple applications from specific software solutions.
 
 ---
 
-## 3.7 - Component Reusability
+## 3.7 - Component reusability
 
 #### Description
 
@@ -238,21 +195,18 @@ be encapsulated to promote simplicity of solutions built on the architecture.
 #### Rationale
 
 Reusable components represent opportunities to reduce development times and costs. Reusable components
-leverage investments in current systems. Modular components increase the systems’ capacities to adapt to
-different evolution needs, because the change is isolated from affected modules.
+leverage investments in current systems. Modular components increase the systems’ capacities to adapt to different evolution needs, because the change is isolated from affected modules.
 
 #### Implications
 
 - Standards and guidelines to develop reusable system components should be compiled
 - Application maintenance must be prioritised along with new development work
-- Application’s maintenance may be driven by decisions that deem a technology to be no longer supported
-within the enterprise
-- Failure to maintain applications must be recognised as a risk to that application and all systems that
-depend on/consume the application
+- Application’s maintenance may be driven by decisions that deem a technology to be no longer supported within the enterprise
+- Failure to maintain applications must be recognised as a risk to that application and all systems that depend on/consume the application
 
 ---
 
-## 3.8 - Cloud Native Applications
+## 3.8 - Cloud native applications
 
 #### Description
 
@@ -261,10 +215,8 @@ far as possible.
 
 #### Rationale
 
-Applications are scalable and easy to deploy onto different cloud environments thus avoiding potentially
-expensive vendor lock-in.
+Applications are scalable and easy to deploy onto different cloud environments thus avoiding potentially expensive vendor lock-in.
 
 #### Implications
 
-Application development must adhere to a number of fundamental design principles i.e. [12 factor application
-principles](https://12factor.net)
+Application development must adhere to a number of fundamental design principles i.e. [12 factor application principles](https://12factor.net)
