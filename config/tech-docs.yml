@@ -1,5 +1,5 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: nics-ea-principles.london.cloudapps.digital
+host: principles.ea.digitalni.gov.uk
 
 # Header-related options
 show_govuk_logo: false
