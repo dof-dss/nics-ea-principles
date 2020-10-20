@@ -12,6 +12,9 @@ header_links:
   Citizen Services Architecture: https://docs.ea.digitalni.gov.uk
   GitHub: https://github.com/dof-dss/nics-ea-principles
 
+footer_links:
+  Accessibility statement: /accessibility.html
+  
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
 
